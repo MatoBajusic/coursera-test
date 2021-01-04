@@ -1,11 +1,10 @@
 
-/********** Base styles **********/
+/***Base styles***/
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   box-sizing: border-box;
 }
 .title-container {
-  margin-bottom: 10px;
   width: 90%;
   height: 100px;
   margin-right: auto;
@@ -23,7 +22,7 @@
 }
 
 .menu{
-  background-color: #8e8e8e;
+  background-color: grey;
   margin: 10px;
   border: 2px solid black;
 }
@@ -42,9 +41,9 @@
   clear: both;
 }
 
-#chicken{background-color: #FDEBD0;}
-#beef{background-color:#E59866;}
-#sushi{background-color:#A54E0A;}
+#cucumber{background-color: green; color: white;}
+#tomato{background-color: red; color: white;}
+#carrot{background-color: orange; color: white;}
 
 /***Desktop***/
 @media (min-width: 992px){
